@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ContactData from './components/ContactData';
+import SelectDropdown from './components/SelectDropdown/SelectDropdown';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         </header>
         
           <ContactData />
+          <SelectDropdown />
        
       </div>
     );
